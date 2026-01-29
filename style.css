@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8A51FC;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.gripper {
+    width: 375px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #FFF;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+
+button {
+    background: #772fd3;
+    width: 100%;
+    border: none;
+    color: #FFF;
+    height: 48px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555;
+    font-weight: 700;
+    font-size: 20px;
+}
