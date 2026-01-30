@@ -5,9 +5,13 @@ Built with a focus on API consumption, financial data handling, and clean user i
 
 ---
 
-## Preview
 
+<div align="center">
+  
+  ## Preview
+  
 ![Project Preview](./assets/conversor-de-moeda.png)
+</div>
 
 ---
 
@@ -73,9 +77,9 @@ currency-converter
 
 ---
 
-## test my website
+## 🌐 Live Demo
 
- online website:  https://victor-f-padua.github.io/Conversor-de-Moeda/
+ 👉  https://victor-f-padua.github.io/Conversor-de-Moeda/
 
 ## Project Goal
 
